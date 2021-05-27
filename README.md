@@ -13,10 +13,12 @@ Estão sendo utilizadas para este projeto:
 - Spring Boot
 - Java (v. 1.8)
 - AngularJS
+- PostgreSQL
 
 ###### Documentos de referência
 https://docs.github.com/pt/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formating-syntax
 
 ###### Sobre este projeto
 Autor: Joannes Marcos Bercan
+
 Criado em: 26/Maio/2021
