@@ -1,5 +1,5 @@
 # desafio-accenture
-desafio-accenture 
+desafio-accenture - Um gerenciador de tarefas para a empresa ACME.
 
 ## Do que se trata este projeto?
 Criar um CRUD simples baseado em uma lista de tarefas.
