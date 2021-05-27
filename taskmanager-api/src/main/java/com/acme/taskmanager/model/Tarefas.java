@@ -15,9 +15,6 @@ import javax.persistence.Table;
 public class Tarefas implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
-//	Para anotações de coluna no banco:
-//	@Column(name = "EST_CD_ESTABELECIMENTO", precision = 4, scale = 0)
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -30,7 +27,7 @@ public class Tarefas implements Serializable {
 	@Column(name = "descricao_tarefa", length = 100)
 	private String descricao;
 	
-	@Column(name = "foiConcluida_tarefa")
+	@Column(name = "foi_concluida_tarefa")
 	private Boolean concluida;
 
 	public Long getId() {
