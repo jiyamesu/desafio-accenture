@@ -29,6 +29,9 @@ public class Tarefas implements Serializable {
 	
 	@Column(name = "descricao_tarefa", length = 100)
 	private String descricao;
+	
+	@Column(name = "foiConcluida_tarefa")
+	private Boolean concluida;
 
 	public Long getId() {
 		return id;
