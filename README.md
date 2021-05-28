@@ -12,11 +12,8 @@ Estão sendo utilizadas para este projeto:
 - Hibernate ORM
 - Spring Boot
 - Java (v. 1.8)
-- AngularJS
+- Angular
 - PostgreSQL
-
-###### Documentos de referência
-https://docs.github.com/pt/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formating-syntax
 
 ###### Sobre este projeto
 Autor: Joannes Marcos Bercan
