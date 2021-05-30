@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    /* Pantone: 185 C, AKA: Rosso Corsa. */
+    color: rgb(228, 0, 43);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
