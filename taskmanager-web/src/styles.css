@@ -8,6 +8,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: rgb(228, 0, 43);
 }
 
+.blue {
+    /* Bleu de France */
+    color:rgb(49, 140, 231)
+}
+
 .v-middle {
     vertical-align: middle;
 }
