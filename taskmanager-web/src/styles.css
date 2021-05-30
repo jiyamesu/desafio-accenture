@@ -3,6 +3,11 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+.v-middle {
+    vertical-align: middle;
+}
+
+/* As classes a seguir serão movidas para diretrizes no futuro. */
 .red {
     /* Pantone: 185 C, AKA: Rosso Corsa. */
     color: rgb(228, 0, 43);
@@ -15,8 +20,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .white {
     color:rgb(255, 255, 255)
-}
-
-.v-middle {
-    vertical-align: middle;
 }
