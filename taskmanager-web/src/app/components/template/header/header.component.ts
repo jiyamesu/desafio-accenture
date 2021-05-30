@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  title = 'ACME - Gestor de Tarefas';
+
   constructor() { }
 
   ngOnInit(): void {
