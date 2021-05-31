@@ -15,6 +15,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './views/home/home.component';
 import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
+import { RedDirective } from './directives/red.directive';
+import { BlueDirective } from './directives/blue.directive';
+import { WhiletDirective } from './directives/whilet.directive';
+import { WhiteDirective } from './directives/white.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    TarefaCrudComponent
+    TarefaCrudComponent,
+    RedDirective,
+    BlueDirective,
+    WhiletDirective,
+    WhiteDirective
   ],
   imports: [
     BrowserModule,
