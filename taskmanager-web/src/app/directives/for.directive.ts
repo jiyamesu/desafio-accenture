@@ -1,10 +1,14 @@
-import { Directive } from '@angular/core';
+import { Directive, OnInit } from '@angular/core';
 
 @Directive({
-  selector: '[appFor]'
+  selector: '[for]'
 })
-export class ForDirective {
+export class ForDirective implements OnInit {
 
   constructor() { }
+
+  ngOnInit(): void {
+
+  }
 
 }
