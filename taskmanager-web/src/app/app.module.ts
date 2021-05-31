@@ -17,7 +17,6 @@ import { HomeComponent } from './views/home/home.component';
 import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
 import { RedDirective } from './directives/red.directive';
 import { BlueDirective } from './directives/blue.directive';
-import { WhiletDirective } from './directives/whilet.directive';
 import { WhiteDirective } from './directives/white.directive';
 
 @NgModule({
@@ -30,7 +29,6 @@ import { WhiteDirective } from './directives/white.directive';
     TarefaCrudComponent,
     RedDirective,
     BlueDirective,
-    WhiletDirective,
     WhiteDirective
   ],
   imports: [
