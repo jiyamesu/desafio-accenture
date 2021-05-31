@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { TarefaService } from 'src/app/components/tarefa/tarefa.service';
 
 @Component({
   selector: 'app-tarefa-crud',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarefaCrudComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: TarefaService, private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    this.service.showOnConsole('tarefa-crud.component.ts was invoked.')
+  }
+
+  createTarefa(): void {
+    this.service.showMessage("Tarefa criada com sucesso.")
+  }
+
+  cancel(): void {
+    this.router.navigate([''])
   }
 
 }

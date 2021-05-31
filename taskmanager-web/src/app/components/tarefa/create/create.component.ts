@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { TarefaService } from 'src/app/components/tarefa/tarefa.service';
 
 @Component({
   selector: 'app-create',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: TarefaService, private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  createTarefa(): void {
+    this.service.showMessage("Tarefa criada com sucesso.")
+  }
+
+  cancel(): void {
+    this.router.navigate([''])
   }
 
 }
