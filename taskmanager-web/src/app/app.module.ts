@@ -13,6 +13,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomeComponent } from './views/home/home.component';
 import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
 import { RedDirective } from './directives/red.directive';
@@ -42,7 +43,8 @@ import { CreateComponent } from './components/tarefa/create/create.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
