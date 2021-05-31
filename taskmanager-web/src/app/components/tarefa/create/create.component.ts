@@ -3,16 +3,15 @@ import { Router } from '@angular/router';
 import { TarefaService } from 'src/app/components/tarefa/tarefa.service';
 
 @Component({
-  selector: 'app-tarefa-crud',
-  templateUrl: './tarefa-crud.component.html',
-  styleUrls: ['./tarefa-crud.component.css']
+  selector: 'app-create',
+  templateUrl: './create.component.html',
+  styleUrls: ['./create.component.css']
 })
-export class TarefaCrudComponent implements OnInit {
+export class CreateComponent implements OnInit {
 
   constructor(private service: TarefaService, private router: Router) { }
 
-  ngOnInit(): void {    
-    this.service.showOnConsole('tarefa-crud.component.ts was invoked.')
+  ngOnInit(): void {
   }
 
   createTarefa(): void {
