@@ -19,6 +19,7 @@ import { RedDirective } from './directives/red.directive';
 import { BlueDirective } from './directives/blue.directive';
 import { WhiteDirective } from './directives/white.directive';
 import { ForDirective } from './directives/for.directive';
+import { CreateComponent } from './components/tarefa/create/create.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ForDirective } from './directives/for.directive';
     RedDirective,
     BlueDirective,
     WhiteDirective,
-    ForDirective
+    ForDirective,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
