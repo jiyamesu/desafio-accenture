@@ -18,6 +18,7 @@ import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
 import { RedDirective } from './directives/red.directive';
 import { BlueDirective } from './directives/blue.directive';
 import { WhiteDirective } from './directives/white.directive';
+import { ForDirective } from './directives/for.directive';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { WhiteDirective } from './directives/white.directive';
     TarefaCrudComponent,
     RedDirective,
     BlueDirective,
-    WhiteDirective
+    WhiteDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
