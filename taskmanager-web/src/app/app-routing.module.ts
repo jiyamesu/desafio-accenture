@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 import { TarefaCrudComponent } from './views/tarefa-crud/tarefa-crud.component';
+import { CreateComponent } from './components/tarefa/create/create.component'
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: "nova-tarefa",
     component: TarefaCrudComponent
+  },
+  {
+    path: "create",
+    component: CreateComponent
   }
 ];
 
